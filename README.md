@@ -7,6 +7,6 @@ The purpose of this practice project are:
 * Creating fake data and loading it on the website
 * Improving design sense
 
-### Time duration to create: 12 hours
+#### Time duration to create: 12 hours
 
-### [Live Website Link](https://online-islamic-academy.netlify.app/)
+## [Live Website Link](https://online-islamic-academy.netlify.app/)
