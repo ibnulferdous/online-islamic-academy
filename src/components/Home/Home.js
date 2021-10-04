@@ -56,10 +56,14 @@ const Home = () => {
                 <div className="container">
                     <h2 className="text-center fw-light mb-5">Popular Courses</h2>
                     <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+                        {/* Single Course Card */}
                         {
                             coursesData.slice(0, 4).map(course => <CourseCard key={course.id} course={course}></CourseCard>)
                         }
                     </div>
+                    <Link className="text-decoration-none" to="/courses">
+                        <button type="button" className="btn btn-danger my-5 d-block mx-auto">View all courses</button>
+                    </Link>
                 </div>
             </div>
             

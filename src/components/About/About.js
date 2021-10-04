@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 const About = () => {
     return (
         <main className="about-div">
+            {/* Little history about us */}
             <div className="container py-5">
                 <h1 className="display-5 mb-5 text-center">About OIA</h1>
                 <div className="row row-cols-1 row-cols-md-2 g-5 d-flex align-items-center">

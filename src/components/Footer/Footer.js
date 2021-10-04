@@ -16,6 +16,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Copyright text */}
             <footer>
                 <div className="container py-4">
                     <p className="mb-0 text-center text-white">Copyright © 2021 Online Islamic Academy</p>

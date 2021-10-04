@@ -9,4 +9,4 @@ The purpose of this practice project are:
 
 #### Time duration to create: 12 hours
 
-## [Live Website Link](https://online-islamic-academy.netlify.app/)
+### [Live Website Link](https://online-islamic-academy.netlify.app/)

@@ -6,6 +6,7 @@ const Access = () => {
         <main className="access-div">
             <div className="container py-5">
                 <div className="row row-cols-1 row-cols-md-2 g-5">
+                    {/* Log in part */}
                     <div className="col-md">
                         <h3 className="display-5 pb-5 mb-1 text-center">Log in</h3>
                         <form>
@@ -25,6 +26,8 @@ const Access = () => {
                             <button type="submit" class="btn btn-danger">Submit</button>
                         </form>
                     </div>
+
+                    {/* Sign in part */}
                     <div className="col-md">
                         <h3 className="display-5 pb-5 mb-1 text-center">Sign up</h3>
                         <form>
