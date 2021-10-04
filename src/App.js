@@ -1,11 +1,12 @@
 import './App.css';
 import Home from './components/Home/Home';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './components/About/About';
 import Courses from './components/Courses/Courses';
-import Cart from './components/Cart/Cart';
 import Navigation from './components/Navigation/Navigation';
 import PageNotFound from './components/PageNotFound/PageNotFound';
+import Footer from './components/Footer/Footer';
+import Access from './components/Access/Access';
 
 function App() {
   return (
@@ -26,14 +27,15 @@ function App() {
           <Route path="/courses">
             <Courses></Courses>
           </Route>
-          <Route path="/cart">
-            <Cart></Cart>
+          <Route path="/access-page">
+            <Access></Access>
           </Route>
           <Route path="*">
             <PageNotFound></PageNotFound>
           </Route>
         </Switch>
       </Router>
+      <Footer></Footer>
     </div>
   );
 }

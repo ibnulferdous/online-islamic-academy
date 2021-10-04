@@ -4,7 +4,7 @@ header {
 }
 
 header .overlay-div {
-    background: rgba(4, 17, 34, 0.705);
+    background: rgba(4, 17, 34, 0.801);
 }
 
 header .container {
@@ -16,8 +16,24 @@ header p.h4 {
     text-shadow: 2px 2px 15px rgba(4, 17, 34, 0.486);
 }
 
+.features-div {
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+
+.features-div .row {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+
 .features-icon {
     display: block;
     max-width: 150px;
     margin: 0 auto;
+}
+
+.popular-courses-div {
+    background: #F4F8FA;
+    padding: 50px 0 70px;
 }

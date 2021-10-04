@@ -1,0 +1,22 @@
+.about-div {
+    background: #F4F5F7;
+    min-height: 60vh;
+    padding: 50px 0 75px;
+}
+
+.reason-div {
+    margin-top: 130px;
+    margin-bottom: 40px;
+}
+
+.reason-div .row {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+
+.reason-icon {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto;
+}
