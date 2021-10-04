@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const DetailsCards = (props) => {
     const { duration, image, instructor, name, price, rating, students, votes } = props.course;
-    console.log(props)
 
     return (
         <div className="col">
