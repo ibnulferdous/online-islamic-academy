@@ -1,4 +1,4 @@
-import logo from '../../images/logo.png';
+import logo from '../../logo.png';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navigation.css';
@@ -8,10 +8,10 @@ const Navigation = () => {
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light header-menu">
                 <div class="container-fluid">
-                    <a class="navbar-brand d-flex align-items-center">
-                        <img src={logo} alt="OIA" width="50" class="d-inline-block align-text-top" />
+                    <Link class="navbar-brand d-flex align-items-center" to="/">
+                        <img src={logo} alt="OIA" width="35" class="d-inline-block align-text-top" />
                         <span className="fw-bold m-2">Online Islamic Academy</span>
-                    </a>
+                    </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -30,6 +30,8 @@ const Navigation = () => {
                                 <Link class="nav-link" to="/cart">Cart</Link>
                             </li>
                         </ul>
+                        <button type="button" class="btn btn-danger mx-3">Log in</button>
+                        <button type="button" class="btn btn-outline-dark">Sign up</button>
                     </div>
                 </div>
             </nav>

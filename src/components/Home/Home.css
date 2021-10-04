@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    background: url('../../images/cover-image-006.jpg') no-repeat fixed center center /cover;
+    background: url('../../images/hero-image-002.jpg') no-repeat fixed center center /cover;
 }
 
 header .overlay-div {
@@ -11,6 +11,13 @@ header .container {
     min-height: 94vh;
 }
 
-header h1 {
-    text-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+header h1.display-5,
+header p.h4 {
+    text-shadow: 2px 2px 15px rgba(4, 17, 34, 0.486);
+}
+
+.features-icon {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto;
 }
