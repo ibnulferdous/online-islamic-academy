@@ -1,9 +1,10 @@
 import logo from '../../logo.png';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Navigation.css';
 
 const Navigation = () => {
+
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light header-menu">
@@ -18,13 +19,13 @@ const Navigation = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                                <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/about">About</Link>
+                                <NavLink className="nav-link" to="/about">About</NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/courses">Courses</Link>
+                                <NavLink className="nav-link" to="/courses">Courses</NavLink>
                             </li>
                         </ul>
                         <Link to="/access-page">

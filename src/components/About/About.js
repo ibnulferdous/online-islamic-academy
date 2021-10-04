@@ -28,7 +28,7 @@ const About = () => {
                 </div>
             </div>
 
-            {/* Reason to choose us */}
+            {/* Reasons to choose us */}
             <div className="container reason-div">
                 <h3 className="display-5 pb-5 mb-5 text-center">Reason to choose</h3>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 pb-5">

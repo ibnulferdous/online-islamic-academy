@@ -10,7 +10,7 @@ const Courses = () => {
             <div className="container">
                 <h1 className="display-5 mb-5 text-center">All Courses</h1>
                 <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-5">
-                    {/* Loading cards of course information */}
+                    {/* Loading cards of course */}
                     {
                         coursesData.map(course => <DetailsCards key={course.id} course={course}></DetailsCards>)
                     }

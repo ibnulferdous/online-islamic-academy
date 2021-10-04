@@ -56,7 +56,7 @@ const Home = () => {
                 <div className="container">
                     <h2 className="text-center fw-light mb-5">Popular Courses</h2>
                     <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
-                        {/* Single Course Card */}
+                        {/* Single Course Cardss */}
                         {
                             coursesData.slice(0, 4).map(course => <CourseCard key={course.id} course={course}></CourseCard>)
                         }
